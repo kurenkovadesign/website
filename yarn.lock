@@ -327,15 +327,15 @@
   dependencies:
     "@types/jasmine" "*"
 
+"@types/node@10.1.4":
+  version "10.1.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.1.4.tgz#606651d3f8a8bec08b8cb262161aab9209f4a29d"
+  integrity sha512-GpQxofkdlHYxjHad98UUdNoMO7JrmzQZoAaghtNg14Gwg7YkohcrCoJEcEMSgllx4VIZ+mYw7ZHjfaeIagP/rg==
+
 "@types/node@^6.0.46":
   version "6.14.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.14.4.tgz#d8de576bdeaaafcf54a158af1e38cbb6e6d3db46"
   integrity sha512-UqB7h2dVJr/KdZXRMJIhNUWT0HXVe9UNvfLCOsqiSGKAVaAp0QniYHlU9yegxyG6Ug2rc7VdAD4hYj3VghqvAw==
-
-"@types/node@~8.9.4":
-  version "8.9.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.9.5.tgz#162b864bc70be077e6db212b322754917929e976"
-  integrity sha512-jRHfWsvyMtXdbhnz5CVHxaBgnV6duZnPlQuRSo/dm/GnmikNcmZhxIES4E9OZjUmQ8C+HCl4KJux+cXN/ErGDQ==
 
 "@types/q@^0.0.32":
   version "0.0.32"
@@ -1041,6 +1041,11 @@ boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bootstrap@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
+  integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -5823,6 +5828,13 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   integrity sha1-6Eg5bwV9Ij8kOGkkYY4laUFh7Ec=
   dependencies:
     aproba "^1.1.1"
+
+rxjs@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.0.0.tgz#d647e029b5854617f994c82fe57a4c6747b352da"
+  integrity sha512-2MgLQr1zvks8+Kip4T6hcJdiBhV+SIvxguoWjhwtSpNPTp/5e09HJbgclCwR/nW0yWzhubM+6Q0prl8G5RuoBA==
+  dependencies:
+    tslib "^1.9.0"
 
 rxjs@^6.0.0:
   version "6.4.0"
