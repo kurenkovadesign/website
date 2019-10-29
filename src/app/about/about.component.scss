@@ -7,3 +7,10 @@ li {
   list-style: none;
   margin-bottom: 5px;
 }
+
+ul.skills {
+  padding-top: 0;
+  li {
+    list-style: inside;
+  }  
+}
